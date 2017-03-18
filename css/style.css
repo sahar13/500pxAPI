@@ -1,0 +1,116 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  padding: 0 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  height: 33px;
+  padding: 0 10px;
+}
+
+#button {
+  margin: 0 5px 0 20px;
+}
+
+#userKeyword {
+  width: 400px;
+  height: 28px;
+  margin: 0 5px;
+  padding: 0;
+  background: #f7f8fa;
+  border: 0;
+  border: 1px solid #eeeff2;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #222;
+  text-indent: 10px;
+}
+
+#renderphoto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  margin: 0px;
+}
+
+.info {
+  width: 203px;
+  height: 150px;
+  margin-left: -10px;
+  position: relative;
+  overflow: auto;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  margin: 0px 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.title {
+  width: 80%;
+  margin: 0;
+  padding-bottom: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.location,
+.views {
+  font-family: "Andale Mono", Courier, monospace;
+  margin: 0;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.location {
+  padding-bottom: 2px;
+}
+
+.description {
+  width: 90%;
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 11px;
+  font-family: "Andale Mono", Courier, monospace;
+  overflow: scroll;
+}
+
+.esc {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 1px 4px 2px;
+  background-color: #f7f8fa;
+  border-radius: 7px;
+  border-style: solid;
+}
