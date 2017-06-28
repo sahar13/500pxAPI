@@ -6,3 +6,5 @@
   <li>country of origin</li>
   <li>number of views</li>
 </ul>
+<p>Here's a screenshot of the application:</p>
+<img src="images/screenshot.png">
